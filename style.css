@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+body {
+    background: hsl(217, 54%, 11%);
+}
+
+.card {
+    background: hsl(216, 50%, 16%);
+}
+
+.title {
+    color: hsl(0, 0%, 100%);
+}
+
+.message, .little-details, .author {
+    color:  hsl(215, 51%, 70%);
+    font-weight: 300;
+}
